@@ -1,8 +1,9 @@
 .widget {
     background: $white;
-    margin-bottom: $xl-size;
+    margin: $xl-size 0;
     width:300px;
     border: 1px solid $grey;
+
 }
 
 .widget-message {
@@ -24,6 +25,8 @@ h3 {
 }
 
 .widget_item_details{
+    margin: $xl-size 0;
+
     width:450px;
     margin-left:20px;
     label{
