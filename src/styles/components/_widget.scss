@@ -49,10 +49,11 @@ h3 {
 @media(max-width: $desktop-breakpoint) {
     .widget  {
         width:100%;
+        margin: $m-size 0;
     } 
     .widget_item_details{
         width:100%;   
         margin-left:0;
-
+        margin: $m-size 0;
     }
 }
