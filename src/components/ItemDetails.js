@@ -47,7 +47,7 @@ export default class ItemDetails extends React.Component{
             <div>
                 <div className="widget_item_details">
                     <div className="widget-header">
-                        <h3>{this.state.title} DETAILS</h3>
+                        <h3>{this.state.title.toUpperCase()} DETAILS</h3>
                     </div>
                     <div className="widget_item_details_body">
                         <label> Quantity

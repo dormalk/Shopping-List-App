@@ -110,7 +110,7 @@ export default class ShoppingListApp extends React.Component {
                                 onChangeQuantity={this.onChangeQuantity}
                                 onChangePrice={this.onChangePrice}
                                 onChangeDescription={this.onChangeDescription}
-                                title ={this.state.options[this.state.selectedOption].title.toUpperCase()}
+                                title ={this.state.options[this.state.selectedOption].title}
                                 quantity= {this.state.options[this.state.selectedOption].quantity}
                                 price= {this.state.options[this.state.selectedOption].price}
                                 description= {this.state.options[this.state.selectedOption].description}
