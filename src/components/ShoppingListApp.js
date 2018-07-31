@@ -80,7 +80,7 @@ export default class ShoppingListApp extends React.Component {
             return false;
         }
         else{
-            if(this.state.selectedOption == this.state.prevSelect){
+            if(this.state.selectedOption === this.state.prevSelect){
                 return true;
             }
             else{
