@@ -1,0 +1,18 @@
+
+.header{
+    background: $lite-green;
+    margin-bottom: $s-size;
+    padding: 15px 0;
+    color:white;
+
+}
+
+@media(min-width: $desktop-breakpoint) {
+}
+
+.header__title{
+    font-size: 2em;
+    margin: 0;
+}
+
+
