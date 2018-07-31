@@ -1,5 +1,4 @@
 .option {
-    border-bottom: 1px solid lighten($light-blue,10%);
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -10,6 +9,9 @@
     input{
         border: 0px;
         padding: 10px 5px;
+    }
+    input:disabled{
+        background: white;
     }
 }
 

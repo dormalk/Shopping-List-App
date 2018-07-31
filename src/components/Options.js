@@ -11,11 +11,11 @@ const Options = (props) => (
         {
             props.options.map((option,index) => (
                 <Option 
-                    key={option} 
-                    optionText={option}
+                    optionText={option.title}
                     index = {index}
                     hendleRemoveOption = {props.hendleRemoveOption}
                     hendelEditOption = {props.hendelEditOption}
+                    hendelOnFocused = {props.hendelOnFocused}
                 />
             ))
         }
